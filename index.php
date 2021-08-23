@@ -1,19 +1,12 @@
 <?php
 
 require_once("config.php");
-$host='localhost';
-    $username='root';
-    $password='';
-    $dbname = "s-lib";
-// $host="sv102.ifastnet.com";
-// $username="cscafexy_shadow";
-// $password="Saintly1337";
-// $dbname="cscafexy_s-lib";
-    $conn=mysqli_connect($host,$username,$password,"$dbname");
-    if(!$conn)
-        {
-          die('Could not Connect MySql Server:' .mysql_error());
-        }
+
+$conn=mysqli_connect($host,$username,$password,"$dbname");
+if(!$conn)
+    {
+      die('Could not Connect MySql Server:' .mysql_error());
+    }
 
 ?>
 
