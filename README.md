@@ -9,5 +9,5 @@ A simple, single-filed (plus config.php) MySQL and PHP Book Indexer.
 - Done
 
 # To-do
-- [ ] Add-book.php
+- [ ] add-book.php
 - [ ] Admin Control Panel
